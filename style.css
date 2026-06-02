@@ -776,6 +776,17 @@ p {
   justify-content: center;
   max-width: 390px;
 }
+.badge-card-t {
+  background: #ffffff00;
+  padding: 10px 18px;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+}
 
 .badge-card:hover {
   transform: scale(1.05) rotate(1deg);
